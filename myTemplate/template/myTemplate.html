@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Node.js template test with mustache</title>
+	</head>
+	<body>
+		<h1>Enter your information</h1>
+		<form action="/tmpl/:myTemplate.html" method="POST">
+			<label>First Name: <input name="firstname" type="text" value="{{firstname}}"></label>
+			<label>Last Name: <input name="lastname" type="text" value="{{lastname}}"></label>
+			<input type="submit" value="Submit">
+		</form>
+	</body>
+</html>

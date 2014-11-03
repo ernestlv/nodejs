@@ -1,0 +1,8 @@
+{
+   "name":"myApp",
+   "author":"Ernest",
+   "description":"My 1st node app",
+   "version": "1.0",
+   "engine":"0.10.32",
+   "main":"myApp.js"
+}
